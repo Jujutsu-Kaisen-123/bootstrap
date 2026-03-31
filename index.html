@@ -24,6 +24,11 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
 
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
@@ -51,8 +56,7 @@
 
 
     <div id="container1"  class="container bg-primary text-light text-center">
-        <h1>My porfolio project</h1>
-        <h2>hello</h2>
+        <h1 class="animate__animated animate__backInLeft" >My porfolio project</h1>
 
         <img width="800px" class="margin"
             src="https://www.greenpeace.org/static/planet4-aotearoa-stateless/2023/11/07eba586-gp1t6j5o_web_size.jpg"
@@ -83,19 +87,36 @@
         </button>
     </div>
 
-    <div id="mymodal" class="modal">
+    <div id="mymodal" class="modal fade">
 
-        <div class="modal-dialog">
+        <div class="modal-dialog animate__animated animate__bounce">
             <div class="modal-content">
                 <div class="modal-header">
+                    <h1>More to know</h1>
+
+                    <button type="button" class="close" data-dismiss="modal"> x </button>
 
                 </div>
 
                 <div class="modal-body">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="https://cdn.britannica.com/20/89920-004-E0275152.gif" alt="" width="100%">
+                        </div>
+
+                        <div class="col-sm-8">
+                            <p> The Pacific Ocean is the world's largest and deepest ocean, covering approximately 165.25 million square kilometers (
+                                million square miles), which is about 46% of Earth's water surface and 32% of its 
+                                total surface area.</p>
+                        </div>
+
+                    </div>
+
 
                 </div>
 
                 <div class="modal-footer">
+                    <button data-dismiss="modal"> coool</button>
 
                 </div>
 
